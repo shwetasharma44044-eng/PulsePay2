@@ -37,7 +37,7 @@ function App() {
         <header className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 border-b border-slate-900 pb-6">
           <div className="flex items-center gap-3">
             <div className="relative">
-              <div className="bg-gradient-to-tr from-purple-600 to-indigo-600 p-3 rounded-2xl shadow-lg shadow-purple-600/20 text-white">
+              <div className="bg-gradient-to-tr from-purple-600 to-indigo-600 p-3 rounded-2xl shadow-lg shadow-purple-600/20 pulsepay-glow text-white">
                 <Vote className="w-6 h-6 animate-pulse" />
               </div>
               <div className="absolute -top-1 -right-1 w-3 h-3 bg-emerald-400 border-2 border-slate-950 rounded-full animate-ping" />
