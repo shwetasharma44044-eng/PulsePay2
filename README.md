@@ -27,7 +27,7 @@ No mock data is used anywhere; all data is fetched live from the Stellar ledger 
 
 ## 🏗️ Smart Contract Architecture
 
-The contract is structured under `contracts/pulsepoll` and implements four main methods:
+The contract is structured under `contracts/pulsepay2` and implements four main methods:
 
 *   `initialize(admin: Address, question: String, options: Vec<String>)`: Stores the poll question and options. Can only be run once.
 *   `vote(voter: Address, option: u32)`: Emits a `vote_cast` event and updates the options tally in storage. Implements check-and-throw logic to prevent an address from voting more than once (fails with a panic if already voted).
@@ -112,7 +112,7 @@ npm run preview
 
 ### Run Rust Contract Unit Tests
 ```bash
-cd contracts/pulsepoll
+cd contracts/pulsepay2
 cargo test
 ```
 
