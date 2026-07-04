@@ -1,4 +1,4 @@
-# PulsePoll 🌌
+# PulsePay2 🌌
 
 **PulsePoll** is a complete, production-ready live voting dApp on the **Stellar Testnet** powered by a decentralized **Soroban smart contract**. It enables users to securely vote on a single live question, view live voting results updated in real-time, and trace transaction lifecycles directly on-chain using any major Stellar browser wallet (Freighter, xBull, Albedo, etc.).
 
