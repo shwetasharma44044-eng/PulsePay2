@@ -134,3 +134,18 @@ The contract code checks the sender of the vote using:
 voter.require_auth();
 ```
 This guarantees that nobody can forge votes on behalf of other addresses. The smart contract states are stored permanently in Soroban instance storage.
+
+---
+
+## 📸 Screenshots
+
+### Wallet Connection Options
+Here are the supported Stellar browser wallets:
+![Wallet Connection Options](./image-2.png)
+
+### Main Dashboard & Voting Interface
+![Main Dashboard](./image-1.png)
+
+### Real-Time Activity Feed & Live Results
+![Results & Feed](./image-3.png)
+
