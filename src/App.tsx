@@ -44,7 +44,7 @@ function App() {
             </div>
             <div>
               <h1 className="text-2xl md:text-3xl font-extrabold tracking-tight bg-gradient-to-r from-purple-400 via-indigo-200 to-blue-400 bg-clip-text text-transparent">
-                PulsePoll
+                PulsePay2
               </h1>
               <p className="text-xs md:text-sm text-slate-400 font-medium">
                 Stellar Soroban Testnet Live Voting dApp
