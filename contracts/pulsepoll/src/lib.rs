@@ -18,10 +18,10 @@ pub enum DataKey {
 }
 
 #[contract]
-pub struct PulsePollContract;
+pub struct PulsePayContract;
 
 #[contractimpl]
-impl PulsePollContract {
+impl PulsePayContract {
     pub fn initialize(env: Env, question: String, options: Vec<String>) {
         if env.storage().instance().has(&DataKey::Initialized) {
             panic!("Already initialized");
@@ -100,8 +100,8 @@ mod test {
         let env = Env::default();
         env.mock_all_auths();
 
-        let contract_id = env.register_contract(None, PulsePollContract);
-        let client = PulsePollContractClient::new(&env, &contract_id);
+        let contract_id = env.register_contract(None, PulsePayContract);
+        let client = PulsePayContractClient::new(&env, &contract_id);
 
         let question = String::from_str(&env, "Do you prefer Stellar or Ethereum?");
         let mut options = Vec::new(&env);
