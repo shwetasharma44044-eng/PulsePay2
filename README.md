@@ -6,6 +6,11 @@ No mock data is used anywhere; all data is fetched live from the Stellar ledger 
 
 ---
 
+## 📖 Architecture
+For detailed documentation on the architecture, see [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+
+---
+
 ## ⚡ Live Soroban Contract Details (Testnet)
 
 *   **Deployed Contract Address**: `CB3O6FJ3AHCNR2XTTEE3C3RBKOW4GK76ZE2J6PN2CPXAULQ2PAEPFTBQ`
