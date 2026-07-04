@@ -1,5 +1,5 @@
 [package]
-name = "pulsepoll"
+name = "pulsepay2"
 version = "0.1.0"
 edition = "2021"
 
@@ -20,5 +20,5 @@ panic = "abort"
 lto = true
 codegen-units = 1
 
-[profile.release.package.pulsepoll]
+[profile.release.package.pulsepay2]
 opt-level = "z"
