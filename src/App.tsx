@@ -62,7 +62,7 @@ function App() {
         <div className="flex gap-3 bg-indigo-500/5 border border-indigo-500/10 p-4 rounded-2xl">
           <Info className="w-5 h-5 text-indigo-400 flex-shrink-0 mt-0.5" />
           <div className="text-xs md:text-sm text-slate-400 leading-relaxed">
-            <span className="font-semibold text-indigo-300">PulsePoll</span> runs on decentralized Soroban smart contracts on the Stellar Testnet. 
+            <span className="font-semibold text-indigo-300">PulsePay2</span> runs on decentralized Soroban smart contracts on the Stellar Testnet. 
             All votes are cryptographically signed by your wallet, recorded immutably on-chain, and tallied in real-time. 
             No mock or centralized databases are used.
           </div>
