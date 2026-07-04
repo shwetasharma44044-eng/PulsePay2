@@ -141,7 +141,7 @@ function App() {
 
       {/* Footer */}
       <footer className="border-t border-slate-900 py-6 text-center text-[10px] md:text-xs text-slate-500 flex flex-col gap-1 items-center justify-center">
-        <span>© {new Date().getFullYear()} PulsePoll. Built with React + TypeScript + Soroban (Rust).</span>
+        <span>© {new Date().getFullYear()} PulsePay2. Built with React + TypeScript + Soroban (Rust).</span>
         <span>Verified Smart Contract: <code className="text-slate-400 font-mono select-all bg-slate-950/60 px-1 py-0.5 rounded border border-slate-900">{import.meta.env.VITE_CONTRACT_ID}</code></span>
       </footer>
     </div>
