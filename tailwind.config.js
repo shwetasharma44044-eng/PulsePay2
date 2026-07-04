@@ -1,3 +1,4 @@
+// PulsePay2 Custom Branding Configuration
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
