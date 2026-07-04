@@ -1,4 +1,5 @@
 import React from 'react';
+// Integration point for PulsePay2 Stellar Multi-Wallet connector
 import { Wallet, LogOut, AlertCircle, ShieldCheck } from 'lucide-react';
 
 interface WalletConnectProps {
