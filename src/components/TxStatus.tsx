@@ -22,6 +22,10 @@ export const TxStatus: React.FC<TxStatusProps> = ({ status, onReset }) => {
 
   // Helper to determine the status of each step in the pipeline
   const getStepStatus = (index: number) => {
+    if (step === 'success') {
+      return 'success';
+    }
+
     const currentStepIndex = stepsList.findIndex((s) => s.stepKey === step);
     
     if (step === 'failed' && index === currentStepIndex) {
