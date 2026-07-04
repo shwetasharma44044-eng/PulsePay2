@@ -11,6 +11,7 @@ import type { SorobanEventData } from '../services/contractService';
 import type { PollState, TxStatus } from '../types';
 
 export const useContract = () => {
+  // Custom hook for PulsePay2 interacting with Soroban contract events
   const [pollState, setPollState] = useState<PollState>({
     question: null,
     options: [],
