@@ -141,11 +141,12 @@ This guarantees that nobody can forge votes on behalf of other addresses. The sm
 
 ### Wallet Connection Options
 Here are the supported Stellar browser wallets:
-![Wallet Connection Options](./image-2.png)
+![Wallet Connection Options](./image-4.png)
 
 ### Main Dashboard & Voting Interface
-![Main Dashboard](./image-1.png)
+![Main Dashboard](./image-7.png)
 
 ### Real-Time Activity Feed & Live Results
-![Results & Feed](./image-3.png)
+![Results](./image-5.png)
+![Activity Feed](./image-6.png)
 
